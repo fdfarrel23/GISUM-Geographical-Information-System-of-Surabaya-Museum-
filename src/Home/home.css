@@ -1,0 +1,270 @@
+body {
+   font: 1rem;
+   overflow-x: hidden;
+}
+
+.main {
+   padding: 30px 70px;
+   width: 100%;
+   height: 100vh;
+   /* Location of the image */
+   background-image: url(background.jpg);
+   
+   /* Background image is centered vertically and horizontally at all times */
+   background-position: center center;
+   
+   /* Background image doesn't tile */
+   background-repeat: no-repeat;
+   
+   /* Background image is fixed in the viewport so that it doesn't move when 
+      the content's height is greater than the image's height */
+   background-attachment: fixed;
+   
+   /* This is what makes the background image rescale based
+      on the container's size */
+   background-size: cover;
+   
+   /* Set a background color that will be displayed
+      while the background image is loading */
+   background-color: #464646;
+}
+
+.main__content {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.main__contentPositioning > h1 {
+   font-size: 300%;
+}
+
+.main__contentPositioning > p {
+   font-size: 180%;
+}
+
+.main__contentPositioning {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   height: 100%;
+   justify-content: center;
+}
+
+.garis-putih-1 {
+   width: 10%;
+   border-bottom: solid 3px white;
+}
+
+.main__button {
+   background-color: #5D9CEC;
+   border: none;
+   padding: 15px 22px;
+   padding-left: 30px;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.flex-y {
+   display: flex;
+}
+
+.flex-x {
+   display: flex;
+   flex-direction: column;
+}
+
+.x-center {
+   align-items: center;
+}
+
+.y-center {
+   justify-content: center;
+}
+
+.y-end {
+   justify-content: flex-end;
+}
+
+.next__button {
+   background-color: #5D9CEC;
+   border-radius: 50px;
+   height: 40px;
+   width: 40px;
+   border: none;
+}
+
+.animate__animated.animate__bounce {
+   --animate-duration: 2s;
+   --animate-delay: 2s;
+}
+
+.content {
+   width: 100%;
+   padding: 120px 70px 50px 70px;
+}
+
+.content__title {
+   text-align: center;
+   display: flex;
+}
+
+.content__title > h1 {
+   font-size: 200%;
+   width: 300px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.garis-hijau-1 {
+   border-bottom: solid 3px #76AF77;
+   width: 17%;
+}
+
+.container__contentBox {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   padding: 80px 20px;
+}
+
+@media (max-width: 1300px) {
+   .container__contentBox {
+      text-align: center;
+   }
+
+   .content__box {
+      margin: 0;
+   }
+ }
+
+.content__box {
+   display: flex;
+   width: 350px;
+   height: 350px;
+   margin: 20px 30px;
+   text-align: center;
+   background-color: #FAFAFA;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content__box > p {
+   margin-top: 20px;
+   width: 70%;
+   font-weight: bold;
+   height: 48px;
+}
+
+.quotes {
+   position: relative;
+   width: 100%;
+   height: 900px;
+   /* Location of the image */
+   background-image: url(background-quotes.jpg);
+   
+   /* Background image is centered vertically and horizontally at all times */
+   background-position: center center;
+   
+   /* Background image doesn't tile */
+   background-repeat: no-repeat;
+   
+   /* This is what makes the background image rescale based
+      on the container's size */
+   background-size: cover;
+   
+   /* Set a background color that will be displayed
+      while the background image is loading */
+   background-color: #464646;
+}
+
+.quotes__content {
+   padding: 30px 160px;
+}
+
+.wave-top {
+   top: -1px;
+   width: 101%;
+}
+
+.wave-bottom {
+   bottom: -1px;
+   width: 101%;
+}
+
+.quotes__img {
+   margin-right: 80px;
+}
+
+.quotes__text > h1 {
+   font-size: 300%;
+   font-style: italic;
+}
+
+.quotes__name {
+   height: 80px;
+}
+
+.quotes__name > p {
+   margin: 0;
+   font-size: 18px;
+}
+
+.culture {
+   padding: 30px 70px;
+}
+
+.culture__header > h1 {
+   width: 180px;
+   margin-bottom: 20px;
+}
+
+.garis-hijau-2 {
+   width: 100px;
+   border-bottom: solid 3px #76AF77;
+}
+
+.culture__holder {
+   margin: 100px 0;
+}
+
+.culture__content {
+   margin: 70px 0;
+}
+
+.culture__container {
+   background-color: #FAFAFA;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.culture__text {
+   padding: 0 100px;
+}
+
+.culture__text > h1 {
+   margin-bottom: 20px;
+}
+
+.culture__img {
+   width: 440px;
+   height: 360px;
+}
+
+.footer {
+   background-color: #5D9CEC;
+   padding: 30px 70px 14px 70px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__left > img {
+   margin-bottom: 30px;
+}
+
+.footer__right {
+   text-align: center;
+}
+
+.sosmed {
+   width: 30px;
+   height: 30px;
+}

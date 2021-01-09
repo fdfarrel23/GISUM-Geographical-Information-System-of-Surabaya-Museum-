@@ -1,0 +1,77 @@
+.MapHolder{
+    height: 100vh;
+}
+.PopUpContainer{
+    margin-left: 12px;
+}
+.PopUpContainer p{
+    font-weight: bold;
+}
+.LogoHolder{
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 35px 10px 35px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.LogoContainer{
+    cursor: pointer;
+}
+.Logooutline{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.root {
+    max-width: 360px;
+    position: relative;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    -webkit-scrollbar:none; /* chrome*/
+    height: 0vh;
+    animation-duration: 5s;
+    transition: height 1s;
+}
+@media  (max-width: 420px){
+    .root{
+        width: 30vh;
+    }
+}
+@media  (max-width: 420px){
+    .LogoContainer img{
+        width: 200px;
+    }
+}
+.listSection {
+    background-color: inherit;
+}
+.uls{
+    background-color: inherit;
+    padding: 0px;
+}
+.gridHolder{
+    padding-top: 10px;
+}
+.GridListTitleHolder{
+    cursor: pointer;
+}
+.listHolders{
+    padding-top: 10px;
+    display: flex;
+}
+.listHolders img{
+    border-radius: 2px;
+}
+.nameButton{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
